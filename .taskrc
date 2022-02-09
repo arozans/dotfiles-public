@@ -1,0 +1,160 @@
+include ~/.taskrc_taskserver
+recurrence=no
+
+report.in.columns           = id,description
+report.in.description       = Inbox
+report.in.filter            = status:pending limit:page (+in)
+report.in.labels            = ID,Description
+
+include ~/.taskrc_urgency_projects
+
+urgency.uda.arozansduration.coefficient=13.0
+urgency.uda.arozanstasklength.short.coefficient=10.0
+urgency.uda.arozanstasklength.medium.coefficient=6.0
+#urgency.uda.priority.L.coefficient          -2 # low Priority
+urgency.active.coefficient = 35.0
+
+rc.debug.hooks=2
+context.c=-in -inthe -lublin -@lublin -@shop -shop -invoice -maybe project.not:WORK -WORK -work pro.not:SMART_HOME pro.not:PROD_TOOLS -m
+context.h=-in -inthe -lublin -@lublin -@shop -shop -invoice -maybe project.not:WORK -WORK -work -m
+context.s=(-in -inthe -lublin -@lublin -@shop -shop -invoice -maybe project.not:WORK -WORK -work) and ((+s16 and (status:pending or status:completed)) or (status:pending and due.before:fri) or (arozansdurationmodified.after:sat-7d and -CHILD)) -m
+
+context.i=project.not:WORK and -WORK and -work  and '(+in or +inthe or +hass or -PROJECT)'
+
+urgency.tags.coefficient=0.0
+urgency.uda.priority.L.coefficient=-3.0
+urgency.annotations.coefficient=0.0
+urgency.project.coefficient=0.0
+urgency.due.coefficient=30.0 
+
+uda.intheamattachments.type=string
+uda.intheamattachments.label=Inthe.AM Attachments
+uda.intheamoriginalemailsubject.type=string
+uda.intheamoriginalemailsubject.label=Inthe.AM E-mail Subject
+uda.intheamoriginalemailid.type=numeric
+uda.intheamoriginalemailid.label=Inthe.AM E-mail ID
+uda.intheamtrelloid.type=string
+uda.intheamtrelloid.label=Inthe.AM Trello Object ID
+uda.intheamtrelloboardid.type=string
+uda.intheamtrelloboardid.label=Inthe.AM Trello Board ID
+uda.intheamtrellolistid.type=string
+uda.intheamtrellolistid.label=Inthe.AM Trello List ID
+uda.intheamtrellolistname.type=string
+uda.intheamtrellolistname.label=Inthe.AM Trello List Name
+uda.intheamtrellourl.type=string
+uda.intheamtrellourl.label=Inthe.AM Trello URL
+uda.intheamtrellodescription.type=string
+uda.intheamtrellodescription.label=Inthe.AM Trello Description
+uda.intheamtrellolastupdated.type=string
+uda.intheamtrellolastupdated.label=Inthe.AM Trello Last Updated
+uda.intheamduplicateof.type=string
+uda.intheamduplicateof.label=Inthe.AM Duplicate of Task
+uda.intheammergedfrom.type=string
+uda.intheammergedfrom.label=Inthe.AM Duplicate Tasks Merged
+uda.reviewed.type=date
+uda.reviewed.label=Reviewed
+report._reviewed.description=Tasksh review report.  Adjust the filter to your needs.
+report._reviewed.columns=uuid
+report._reviewed.sort=reviewed+,modified+
+report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )
+
+uda.jiraid.type=string
+uda.jiraid.label=Jira Id
+uda.jiradescription.type=string
+uda.jiradescription.label=Jira Desc
+uda.jirasummary.type=string
+uda.jirasummary.label=Jira Summary
+uda.jiraurl.type=string
+uda.jiraurl.label=Jira URL
+uda.jiraestimate.type=numeric
+uda.jiraestimate.label=Jira Estimate
+uda.jiraissuetype.type=string
+uda.jiraissuetype.label=Jira Type
+uda.jirastatus.type=string
+uda.jirastatus.label=Jira Status
+
+uda.arozansestimate.type=duration
+uda.arozansestimate.label=Estimate
+
+uda.arozansduration.type=duration
+uda.arozansduration.label=Spent
+
+uda.arozansovertime.type=string
+uda.arozansovertime.label=Overtime
+uda.arozansovertime.values=no,yes
+uda.arozansovertime.default=no
+
+uda.arozanscounter.type=numeric
+uda.arozanscounter.label=acount
+uda.arozanscounter.default=0
+
+uda.arozanstasklength.type=string
+uda.arozanstasklength.label=Task lenght
+uda.arozanstasklength.values=short,medium,long
+
+uda.arozansdurationmodified.type=date
+uda.arozansdurationmodified.label=Dur Mod
+
+uda.refreshed.type=date
+uda.refreshed.label=Refreshed
+
+uda.inpostsender.type=string
+uda.inpostsender.label=Inpost Sender
+
+uda.inpostlocation.type=string
+uda.inpostlocation.label=Inpost Location
+
+uda.inpostwaybill.type=string
+uda.inpostwaybill.label=Inpost Waybill
+
+uda.inpoststatus.type=string
+uda.inpoststatus.label=Inpost Status
+
+report.next.columns=id,start.age,entry.age,depends,priority,project,tags,arozansestimate,arozansduration,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
+report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Est,Spent,Recur,S,Due,Until,Description,Urg
+
+report.sprint.columns=id,start.age,entry.age,depends,priority,project,tags,arozansestimate,arozansduration,recur,scheduled.countdown,due.relative,until.remaining,description,urgency
+report.sprint.description=Current sprint
+report.sprint.filter=(+s16 and (status:pending or status:completed)) or (status:pending and due.before:fri+1d) or (arozansdurationmodified.after:sat-7d and -CHILD)  or (+OVERDUE)
+report.sprint.labels=ID,Active,Age,Deps,P,Project,Tag,Est,Spent,Recur,S,Due,Until,Description,Urg                                                                                   
+report.sprint.sort=status-,urgency-
+
+report.recent.columns=uuid.short,id,start.age,entry.age,depends,priority,project,tags,arozansestimate,arozansduration,modified,recur,scheduled.countdown,due.relative,until.remaining,description.truncated,urgency
+report.recent.description=Latest modified tasks
+report.recent.labels=UUID,ID,Active,Age,Deps,P,Project,Tag,Est,Spent,Modified,Recur,S,Due,Until,Description,Urg
+report.recent.filter=-CHILD limit:30
+report.recent.sort=modified-
+
+report.arecent.columns=uuid.short,id,start.age,entry.age,depends,priority,project,tags,arozansestimate,arozansduration,arozansdurationmodified,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
+report.arecent.description=Latest modified tasks
+report.arecent.labels=UUID,ID,Active,Age,Deps,P,Project,Tag,Est,Spent,Modified,Recur,S,Due,Until,Description,Urg
+report.arecent.filter=(arozansdurationmodified or +ACTIVE) and -CHILD limit:30 
+report.arecent.sort=start+,arozansdurationmodified-
+
+report.newest.columns=id,start.age,entry,entry.age,modified.age,depends.indicator,priority,project,tags.count,recur.indicator,wait.remaining,scheduled.countdown,due,until.age,description.truncated
+report.newest.filter=(status:pending or status:waiting) limit:30
+
+confirmation=off
+
+dateformat.report=Y-M-D 
+dateformat.annotation=Y-M-D 
+
+# Color theme (uncomment one to use)
+#include /usr/share/task/light-16.theme
+#include /usr/share/task/light-256.theme
+#include /usr/share/task/dark-16.theme
+include /usr/share/task/dark-256.theme
+#include /usr/share/task/dark-red-256.theme
+#include /usr/share/task/dark-green-256.theme
+#include /usr/share/task/dark-blue-256.theme
+#include /usr/share/task/dark-violets-256.theme
+#include /usr/share/task/dark-yellow-green.theme
+#include /usr/share/task/dark-gray-256.theme
+
+color.uda.arozansovertime.yes=white
+color.uda.arozansovertime.yes=on magenta
+
+color.completed=gray10
+context.foo=pro:CHORES
+context.i2=project.not:WORK and -WORK and -work and (+in or +inthe or +hass or -PROJECT)
+context=h
