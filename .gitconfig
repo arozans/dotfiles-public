@@ -1,0 +1,5 @@
+[user]
+	name = Antoni Rozanski
+	email = antoni.rozanski@allegro.pl
+[core]
+	autocrlf = input
