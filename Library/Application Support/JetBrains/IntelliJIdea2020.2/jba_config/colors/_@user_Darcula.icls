@@ -1,0 +1,201 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2017-10-18T10:32:36</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2017.2.5.0.0</property>
+    <property name="modified">2020-03-12T17:54:17</property>
+    <property name="originalScheme">Darcula</property>
+    <property name="rainbow Default language">true</property>
+  </metaInfo>
+  <colors>
+    <option name="ADDED_LINES_COLOR" value="276927" />
+    <option name="BORDER_LINES_COLOR" value="" />
+    <option name="CARET_COLOR" value="fff3fc" />
+    <option name="CARET_ROW_COLOR" value="3e3e3e" />
+    <option name="DELETED_LINES_COLOR" value="d07c9b" />
+    <option name="DOCUMENTATION_COLOR" value="3c3f41" />
+    <option name="LINE_NUMBERS_COLOR" value="686c6f" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c3c2c2" />
+    <option name="MODIFIED_LINES_COLOR" value="194f91" />
+    <option name="SELECTION_BACKGROUND" value="28509f" />
+    <option name="SOFT_WRAP_SIGN_COLOR" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="24c0e" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="5b5716" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="572f11" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="481728" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="42144c" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="675849" />
+  </colors>
+  <attributes>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="2e82bf" />
+      </value>
+    </option>
+    <option name="DIFF_CONFLICT">
+      <value>
+        <option name="FOREGROUND" value="34201d" />
+        <option name="BACKGROUND" value="5e211d" />
+        <option name="ERROR_STRIPE_COLOR" value="9f3f38" />
+      </value>
+    </option>
+    <option name="DIFF_DELETED">
+      <value>
+        <option name="FOREGROUND" value="333434" />
+        <option name="BACKGROUND" value="484a4a" />
+        <option name="ERROR_STRIPE_COLOR" value="a4adb2" />
+      </value>
+    </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="FOREGROUND" value="132e1f" />
+        <option name="BACKGROUND" value="4514" />
+        <option name="ERROR_STRIPE_COLOR" value="5e9c71" />
+      </value>
+    </option>
+    <option name="DIFF_MODIFIED">
+      <value>
+        <option name="FOREGROUND" value="f1c26" />
+        <option name="BACKGROUND" value="3b7e" />
+        <option name="ERROR_STRIPE_COLOR" value="2d6893" />
+      </value>
+    </option>
+    <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="594511" />
+        <option name="EFFECT_COLOR" value="bb6a00" />
+      </value>
+    </option>
+    <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="594511" />
+        <option name="EFFECT_COLOR" value="bb6a00" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
+    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="192418" />
+        <option name="EFFECT_COLOR" value="588a5c" />
+        <option name="ERROR_STRIPE_COLOR" value="36b13" />
+      </value>
+    </option>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value>
+        <option name="BACKGROUND" value="4c5b4a" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="acacac" />
+        <option name="BACKGROUND" value="2566c0" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="ae6767" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="427d7d" />
+      </value>
+    </option>
+    <option name="ROUND_BRACKETS_RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="ROUND_BRACKETS_RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="ROUND_BRACKETS_RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="ROUND_BRACKETS_RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="ROUND_BRACKETS_RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_Changed Files">
+      <value>
+        <option name="FOREGROUND" value="7b4792" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_conftest">
+      <value />
+    </option>
+    <option name="SQUARE_BRACKETS_RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
+    </option>
+    <option name="SQUARE_BRACKETS_RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="d59aef" />
+      </value>
+    </option>
+    <option name="SQUARE_BRACKETS_RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="8548cd" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="aebecd" />
+        <option name="BACKGROUND" value="282a2c" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="29612f" />
+        <option name="EFFECT_COLOR" value="3c704b" />
+        <option name="ERROR_STRIPE_COLOR" value="61936f" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="331615" />
+        <option name="EFFECT_COLOR" value="a63464" />
+        <option name="ERROR_STRIPE_COLOR" value="b56277" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="IntegrationTestsKotlin" pattern="file[*integration*]:kotlin//*" />
+</component>
