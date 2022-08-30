@@ -62,7 +62,6 @@ hidutil property --matching '{"ProductID":0x027c}' --set '{"UserKeyMapping":[
               "HIDKeyboardModifierMappingDst": 0x700000028
             }
 ]}'
-
 # Internal MacBook (newer) keyboard
 hidutil property --matching '{"ProductID":0x0343}' --set '{"UserKeyMapping":[
             {
@@ -82,15 +81,15 @@ hidutil property --matching '{"ProductID":0x0343}' --set '{"UserKeyMapping":[
               "HIDKeyboardModifierMappingDst": 0x7000000E0
             },
             {
-              "HIDKeyboardModifierMappingSrc": 0x700000064,
-              "HIDKeyboardModifierMappingDst": 0x700000029
-            },
-            {
               "HIDKeyboardModifierMappingSrc": 0x700000031,
               "HIDKeyboardModifierMappingDst": 0x700000028
             },
-	    {
+            {
               "HIDKeyboardModifierMappingSrc": 0x7000000E0,
               "HIDKeyboardModifierMappingDst": 0xFF00000003
+            },
+            {
+              "HIDKeyboardModifierMappingSrc": 0x700000064,
+              "HIDKeyboardModifierMappingDst": 0x700000035
             }
 ]}'
