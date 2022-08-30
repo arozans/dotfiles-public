@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="IntegrationTests" pattern="file[*integration*]:groovy//*" />
+</component>
