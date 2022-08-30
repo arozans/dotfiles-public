@@ -88,5 +88,9 @@ hidutil property --matching '{"ProductID":0x0343}' --set '{"UserKeyMapping":[
             {
               "HIDKeyboardModifierMappingSrc": 0x700000031,
               "HIDKeyboardModifierMappingDst": 0x700000028
+            },
+	    {
+              "HIDKeyboardModifierMappingSrc": 0x7000000E0,
+              "HIDKeyboardModifierMappingDst": 0xFF00000003
             }
 ]}'
