@@ -27,7 +27,7 @@ ff()
 {
 	local dir="${@-$(PWD)}"
 	local resolved_dir=$(fasd ${dir} -dl -1)
-	python3  /Users/antoni.rozanski/r/allegro_other/other/fullpath.py $resolved_dir | fzf --height 30% --preview 'bat --style=full --color=always --line-range :25 "$(cut -c20- <(echo {}))" 2>/dev/null || tree -C "$(cut -c20- <(echo {}))"' --keep-right |  >/dev/null 2>&1  | cut -c20-  # | tee >(tr -d '\n' | pbcopy)
+	python3  "$HOME"/.config/custom_scripts/fullpath.py $resolved_dir | fzf --height 30% --preview 'bat --style=full --color=always --line-range :25 "$(cut -c20- <(echo {}))" 2>/dev/null || tree -C "$(cut -c20- <(echo {}))"' --keep-right |  >/dev/null 2>&1  | cut -c20-  # | tee >(tr -d '\n' | pbcopy)
 }
 ffp()
 {
@@ -42,7 +42,7 @@ ffp()
 
 	if [ -f "$selected_file" ]
 	then
-		cd "$(python3 //Users/antoni.rozanski/r/allegro_other/other/parent_dir_adder.py $selected_file)" # && echo "$(PWD)/$(ls -A)" | tr -d '\n' | pbcopy
+		cd "$(python3 "$HOME"/.config/custom_scripts/parent_dir_adder.py $selected_file)" # && echo "$(PWD)/$(ls -A)" | tr -d '\n' | pbcopy
 	elif [ -d "$selected_file" ]
 	then
 		cd $selected_file
