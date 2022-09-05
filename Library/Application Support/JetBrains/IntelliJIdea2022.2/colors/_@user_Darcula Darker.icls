@@ -3,16 +3,10 @@
     <property name="created">2022-09-05T07:55:19</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.1.0.0</property>
-    <property name="modified">2022-09-05T08:15:28</property>
+    <property name="modified">2022-09-05T08:51:24</property>
     <property name="originalScheme">Darcula Darker</property>
   </metaInfo>
   <colors>
-    <option name="CARET_COLOR" value="f7f7f7" />
-    <option name="CARET_ROW_COLOR" value="323335" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="232425" />
-    <option name="GUTTER_BACKGROUND" value="232425" />
-    <option name="SELECTED_TEARLINE_COLOR" value="5e6063" />
-    <option name="TEARLINE_COLOR" value="454749" />
     <option name="ADDED_LINES_COLOR" value="276927" />
     <option name="BORDER_LINES_COLOR" value="" />
     <option name="CARET_COLOR" value="fff3fc" />
@@ -20,11 +14,14 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="242627" />
     <option name="DELETED_LINES_COLOR" value="d07c9b" />
     <option name="DOCUMENTATION_COLOR" value="3c3f41" />
+    <option name="GUTTER_BACKGROUND" value="232425" />
     <option name="LINE_NUMBERS_COLOR" value="686c6f" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c3c2c2" />
     <option name="MODIFIED_LINES_COLOR" value="194f91" />
+    <option name="SELECTED_TEARLINE_COLOR" value="5e6063" />
     <option name="SELECTION_BACKGROUND" value="28509f" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="" />
+    <option name="TEARLINE_COLOR" value="454749" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="24c0e" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="5b5716" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="572f11" />
@@ -33,9 +30,36 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="675849" />
   </colors>
   <attributes>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="a782bb" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cfd2d5" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_FIELD">
+      <value>
+        <option name="FOREGROUND" value="a782bb" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="2e82bf" />
+      </value>
+    </option>
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="a782bb" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="8ea765" />
       </value>
     </option>
     <option name="DIFF_CONFLICT">
@@ -65,39 +89,12 @@
         <option name="BACKGROUND" value="3b7e" />
         <option name="ERROR_STRIPE_COLOR" value="2d6893" />
       </value>
-     </option>
-    <option name="DEFAULT_CONSTANT">
-      <value>
-        <option name="FOREGROUND" value="a782bb" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="cfd2d5" />
-      </value>
-    </option>
-    <option name="DEFAULT_INSTANCE_FIELD">
-      <value>
-        <option name="FOREGROUND" value="a782bb" />
-      </value>
-    </option>
-    <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="a782bb" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_STRING">
-      <value>
-        <option name="FOREGROUND" value="8ea765" />
-      </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3a483a" />
+        <option name="BACKGROUND" value="374737" />
+        <option name="EFFECT_COLOR" value="3b723b" />
         <option name="ERROR_STRIPE_COLOR" value="36b13" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -121,9 +118,9 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="40342a" />
+        <option name="BACKGROUND" value="82583a" />
+        <option name="EFFECT_COLOR" value="6c432b" />
         <option name="ERROR_STRIPE_COLOR" value="bb5f77" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
