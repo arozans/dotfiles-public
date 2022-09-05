@@ -13,8 +13,59 @@
     <option name="GUTTER_BACKGROUND" value="232425" />
     <option name="SELECTED_TEARLINE_COLOR" value="5e6063" />
     <option name="TEARLINE_COLOR" value="454749" />
+    <option name="ADDED_LINES_COLOR" value="276927" />
+    <option name="BORDER_LINES_COLOR" value="" />
+    <option name="CARET_COLOR" value="fff3fc" />
+    <option name="CARET_ROW_COLOR" value="3e3e3e" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="242627" />
+    <option name="DELETED_LINES_COLOR" value="d07c9b" />
+    <option name="DOCUMENTATION_COLOR" value="3c3f41" />
+    <option name="LINE_NUMBERS_COLOR" value="686c6f" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c3c2c2" />
+    <option name="MODIFIED_LINES_COLOR" value="194f91" />
+    <option name="SELECTION_BACKGROUND" value="28509f" />
+    <option name="SOFT_WRAP_SIGN_COLOR" value="" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="24c0e" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="5b5716" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="572f11" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="481728" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="42144c" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="675849" />
   </colors>
   <attributes>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="2e82bf" />
+      </value>
+    </option>
+    <option name="DIFF_CONFLICT">
+      <value>
+        <option name="FOREGROUND" value="34201d" />
+        <option name="BACKGROUND" value="5e211d" />
+        <option name="ERROR_STRIPE_COLOR" value="9f3f38" />
+      </value>
+    </option>
+    <option name="DIFF_DELETED">
+      <value>
+        <option name="FOREGROUND" value="333434" />
+        <option name="BACKGROUND" value="484a4a" />
+        <option name="ERROR_STRIPE_COLOR" value="a4adb2" />
+      </value>
+    </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="FOREGROUND" value="132e1f" />
+        <option name="BACKGROUND" value="4514" />
+        <option name="ERROR_STRIPE_COLOR" value="5e9c71" />
+      </value>
+    </option>
+    <option name="DIFF_MODIFIED">
+      <value>
+        <option name="FOREGROUND" value="f1c26" />
+        <option name="BACKGROUND" value="3b7e" />
+        <option name="ERROR_STRIPE_COLOR" value="2d6893" />
+      </value>
+     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="a782bb" />
