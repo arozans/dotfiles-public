@@ -3,8 +3,9 @@
     <property name="created">2022-09-05T07:55:19</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.1.0.0</property>
-    <property name="modified">2022-09-05T08:51:24</property>
+    <property name="modified">2022-09-06T11:46:03</property>
     <property name="originalScheme">Darcula Darker</property>
+    <property name="rainbow Default language">true</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="276927" />
@@ -38,7 +39,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="cfd2d5" />
+        <option name="FOREGROUND" value="b9bcbf" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -55,11 +56,6 @@
       <value>
         <option name="FOREGROUND" value="a782bb" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_STRING">
-      <value>
-        <option name="FOREGROUND" value="8ea765" />
       </value>
     </option>
     <option name="DIFF_CONFLICT">
@@ -92,7 +88,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="374737" />
+        <option name="BACKGROUND" value="1d261d" />
         <option name="EFFECT_COLOR" value="3b723b" />
         <option name="ERROR_STRIPE_COLOR" value="36b13" />
       </value>
@@ -102,9 +98,34 @@
         <option name="BACKGROUND" value="272829" />
       </value>
     </option>
+    <option name="RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="55a355" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="c77373" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="3e7b7b" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="c29a6e" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="a1527f" />
+      </value>
+    </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="cfd2d5" />
+        <option name="FOREGROUND" value="b9bcbf" />
         <option name="BACKGROUND" value="232425" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -118,7 +139,7 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="82583a" />
+        <option name="BACKGROUND" value="26180e" />
         <option name="EFFECT_COLOR" value="6c432b" />
         <option name="ERROR_STRIPE_COLOR" value="bb5f77" />
       </value>
