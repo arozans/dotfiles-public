@@ -67,7 +67,7 @@ rec()
 sql_values()
 {
 	local tmp_file="$(mktemp)"
-	cat - | python3 /Users/antoni.rozanski/r/zakon-konia-script-config_tool_/sql_values_creator/sql_values_creator.py >> $tmp_file
+	cat - | python3 /Users/antoni.rozanski/.config/custom_scripts/sql_values_creator.py >> $tmp_file
 	echo $tmp_file
 }
 clipboard_values()
