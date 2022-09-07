@@ -113,7 +113,7 @@ alias chf='git checkout $(git branch | fzf)'
 alias tw='task add +work'
 alias tsync='task sync && source /Users/antoni.rozanski/personal/r/timemerger/venv/bin/activate && export PYTHONPATH=$PYTHONPATH:/Users/antoni.rozanski/personal/r/timemerger && python ~/.task/hooks/after-sync.py'
 alias sout1='SwitchAudioSource -s "Schiit Modi Uber"'
-alias sout2='osascript -e "tell application \"Spotify\" to pause" && SwitchAudioSource -s "Głośniki (MacBook Pro)" && osascript -e "set Volume 10"'
+alias sout2='osascript -e "tell application \"Spotify\" to pause" && SwitchAudioSource -s "MacBook Pro Speakers" && osascript -e "set Volume 10"'
 HISTFILE=~/.zsh_history
 HISTSIZE=999999999
 SAVEHIST=999999999
